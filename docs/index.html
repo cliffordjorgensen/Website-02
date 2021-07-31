@@ -9,10 +9,11 @@
 
 </head>
 
-<body style="background-image: url(assets/images/cliff-edge3.jpg);">
+<body style="background-image: url(assets/images/cliff-edge3.jpg); overflow: scroll;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
             <h2 style="font-family:'Courier New', Courier, monospace; ">Cliffs Edge</h2>
+
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -20,25 +21,29 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="html/gallery.html">Gallery</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Connect with me</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+
+                        <a class="dropdown-item" href="https://www.facebook.com/cliff.jorgensen.1232">
+                            <img src="assets/images/facebook-logo.png" alt="Facebook" width=20px height=20px>Facebook</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/clifford-jorgensen-683a10935/">
+                            <img src="assets/images/linkedin-logo.png" alt="LinkedIn" width=20px height=20px>Linked-in</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://github.com/cliffordjorgensen">
+                            <img src="assets/images/github-logo.png" alt="GitHub" width=20px height=20px>Github</a>
+                        </a>
                     </div>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
+                </li> -->
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -47,27 +52,25 @@
         </div>
     </nav>
     <br>
-    <div class="jumbotron" style="background-color: rgb(96, 155, 115); float:left;">
-        <h1 class="display-4" style="text-align: center; font-family:serif">Welcome </h1>
-        <p class="lead">This is an online art gallery of hand made creations by Cliff Jorgensen</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="html/gallery.html" role="button">Enter Gallery</a>
-
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron" style="background-color: rgb(96, 155, 115); float:left;">
+                    <h1 class="display-4" style="text-align: center; font-family:serif">Welcome </h1>
+                    <p class="lead" style="text-align: center;">A collection of hand made creations by Cliff Jorgensen</p>
+                    <hr class="my-4">
+                    <p>Cliffs Edge Creations</p>
+                    <a class="btn btn-primary btn-lg" href="html/gallery.html" role="button">Enter Gallery</a>
+                </div>
+            </div>
+            <div class="col" style="padding-top: 20px;">
+                <img class="img-center" src="assets/images/art2.JPG" alt="Image 1" width=300px height=400px style="border-radius: 6px;">
+            </div>
+        </div>
     </div>
-    <p class="text-justify">
-        <section id="rightOfMain">
-            <h4>Connect with Me</h4>
-            <a href="https://www.facebook.com/cliff.jorgensen.1232">
-                <img src="assets/images/facebook-logo.png" alt="Facebook" width=20px height=20px></a>
-            <a href="https://www.linkedin.com/in/clifford-jorgensen-683a10935/">
-                <img src="assets/images/linkedin-logo.png" alt="LinkedIn" width=20px height=20px></a>
-            <a href="https://github.com/cliffordjorgensen">
-                <img src="assets/images/github-logo.png" alt="GitHub" width=20px height=20px></a>
-            <a href="#"><img src="assets/images/stack-overflow.png" alt="Stack Overflow" width=20px height=20px></a>
-            <p></p>
-        </section>
-    </p>
+    </table>
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
