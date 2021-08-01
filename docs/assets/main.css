@@ -14,7 +14,12 @@ footer h6 {
     text-align: center;
 }
 
-.img-center {
+.card {
+    display: block;
+    margin: auto;
+}
+
+.display-4 {
     display: block;
     margin: auto;
 }
